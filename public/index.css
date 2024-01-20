@@ -1,0 +1,41 @@
+.hero-section {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    height: 800px;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+hero-section-btn {
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.hero-section h1 {
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    margin-bottom: 40px;
+}
+
+.hero-section-btn:hover {
+    background-color: #0056b3;
+}
